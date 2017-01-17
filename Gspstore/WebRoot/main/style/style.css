@@ -1,0 +1,36 @@
+/* @import url("UserAdmin/3/style.css"); */
+/* @import url("UserAdmin/2/style.css"); */
+/* @import url("UserAdmin/4/style.css"); */
+/*  @import url("UserAdmin/5/style.css"); */
+/* @import url("UserAdmin/6/style.css"); */
+@import url("skins/style.css");
+.ainput{border:1px #000 solid;color:blue;}
+/*选项卡样式*/
+.solid-bottom {BORDER-BOTTOM: #F4F4F4 1px solid}
+.sec1  {
+background-color:#D7D7D7;
+height:18px;
+cursor:  hand;
+color:  #000000;
+border-left:  1px  solid  #FFFFFF;
+border-top:  1px  solid  #F6F6F6;
+border-right:  1px  solid  #000000;
+border-bottom:  1px  solid  #999999;
+}
+.sec2  {
+height:18px;
+background-color:#F4F4F4;
+cursor:  hand;
+color:#009933;
+border-left:  1px  solid  #666666;
+border-top:  1px  solid  #999999;
+border-right:  1px  solid #FFFFFF;
+border-bottom:  1px  solid  #F4F4F4;
+font-weight:  bold;
+}
+.f10px{font-size:10px;}
+.f11px{font-size:11px;}
+.f12px{font-size:12px;}
+.f13px{font-size:13px;}
+.f14px{font-size:14px;}
+.f15px{font-size:15px;}

@@ -1,0 +1,93 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../images/360fc/bg.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+IMG {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.pic IMG {
+	WIDTH: 129px; HEIGHT: 105px
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TR {
+	FONT-SIZE: 12px; FONT-FAMILY: "??"
+}
+DIV {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.left0 {
+	PADDING-LEFT: 90px; OVERFLOW: hidden; WIDTH: 100%; COLOR: #c10810; HEIGHT: 24px
+}
+.left1 {
+	PADDING-LEFT: 90px; COLOR: #c10810; LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+.left2 {
+	PADDING-LEFT: 200px; WORD-SPACING: 7px; COLOR: #c10810; LINE-HEIGHT: 24px
+}
+.left3 {
+	PADDING-LEFT: 300px; WORD-SPACING: 7px; COLOR: #c10810; LINE-HEIGHT: 24px
+}
+.left4 {
+	PADDING-LEFT: 400px; WORD-SPACING: 7px; COLOR: #c10810; LINE-HEIGHT: 24px
+}
+.left5 {
+	PADDING-LEFT: 150px; WORD-SPACING: 7px; COLOR: #c10810; LINE-HEIGHT: 24px
+}
+.left6 {
+	PADDING-LEFT: 500px; WORD-SPACING: 7px; COLOR: #c10810; LINE-HEIGHT: 24px
+}
+.left7 {
+	PADDING-LEFT: 450px; WORD-SPACING: 7px; COLOR: #c10810; LINE-HEIGHT: 24px
+}
+.left8 {
+	PADDING-LEFT: 280px; WORD-SPACING: 7px; COLOR: #c10810; LINE-HEIGHT: 24px
+}
+.liebiao {
+	WIDTH: 99%; BORDER-BOTTOM: #cccccc 1px dashed; HEIGHT: 22px
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ff1e23
+}
+A:hover {
+	COLOR: #dc000a; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff1e23; TEXT-DECORATION: none
+}
+STRONG {
+	FONT-SIZE: 12px
+}
+.gonggao {
+	MARGIN-LEFT: 13px; WIDTH: 390px
+}
+.main {
+	BACKGROUND: #ffffff; WIDTH: 900px; HEIGHT: auto; TEXT-ALIGN: left
+}
+.top {
+	FLOAT: left; WIDTH: 900px
+}
+.nav {
+	BACKGROUND: #ffffff; FLOAT: left; WIDTH: 900px; HEIGHT: 30px
+}
+.c {
+	FLOAT: left; WIDTH: 900px; HEIGHT: auto
+}
+.c_left {
+	BACKGROUND: #ffffff; FLOAT: left; OVERFLOW: hidden; WIDTH: 272px; HEIGHT: auto
+}
+.c_right {
+	BACKGROUND: #ffffff; FLOAT: left; WIDTH: 590px; HEIGHT: auto
+}
+.t_tu {
+	FLOAT: left; WIDTH: 272px; HEIGHT: auto
+}
+.t_tu1 {
+	PADDING-LEFT: 30px; FLOAT: left; WIDTH: 272px; LINE-HEIGHT: 20px; HEIGHT: auto
+}
+.footer {
+	WIDTH: 900px; flaot: left
+}

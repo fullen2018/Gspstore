@@ -1,0 +1,228 @@
+/* ============全局============ */
+	div,ul,ol,form {margin:0;padding:0;}
+	img {border:0;}
+	li {list-style:none;}
+	table {font-size:12px;}
+	input {font-family:tahoma,Arial,Helvetica,sans-serif;font-size:12px;vertical-align:middle;}
+	h1,h2,h3,h4,h5,h6,h7 {margin:0;padding:0;text-align:left;font-size:12px;font-weight:400;}
+	p {margin:0;}
+
+	html {overflow:hidden;height:100%;}
+
+	body {
+	color: #222;
+	text-align: center;
+	margin:0;
+	font-family:Arial,tahoma,Helvetica,sans-serif;
+	font-size: 12px;
+	height:100%;
+	width:100%;
+	line-height:150%;
+	background:#fff url("body_background.png") repeat-x left -20px;
+	word-break:break-all;
+	}
+	a:link{text-decoration:none;color:#42414A;}
+	a:visited {text-decoration:none;color:#42414A;}
+	a:hover {text-decoration:none;color:#999;}
+	a:active {text-decoration:none;color:#999;}
+
+/* ============常用============ */
+	.left {float:left;}
+	.right {float:right;}
+	.clear {clear:both;}
+	.block {display:block;}
+	.none {display:none;}
+
+	.red {color:#AA2015!important;}
+	.blue {color:#319EEF!important;}
+	.green {color:#090!important;}
+	.strong {font-weight:600!important;}
+
+/* ============布局============ */
+/* -- 用户管理后台 -- */
+	#IndexTableBody {border-collapse:collapse;width:100%;height:100%;border:0;}
+	#IndexTableBody thead tr {height:40px;}
+	#IndexTableBody thead tr th {text-align:right;color:#fff;padding:0 10px 0 0;}
+	#IndexTableBody thead tr th a {color:#fff;font-weight:400;}
+	#IndexTableBody thead tr th a:hover {text-decoration:underline;}
+	#IndexTableBody thead tr th div#logo {float:left;margin:0 0 0 5px;width:260px;height:29px;background:url("logo.png") no-repeat left top;text-align:left;text-indent:-9999px;}
+
+	#IndexTableBody tbody tr td.tab {height:30px;}
+	#IndexTableBody tbody tr td.tab ul#TabPage1 {position:absolute;top:43px;left:210px;}
+	#IndexTableBody tbody tr td.tab ul#TabPage1 li {float:left;margin:0 3px 0 0;background: url("tab.gif") no-repeat left 0;cursor:pointer;color:#fff;letter-spacing:3px;}
+	#IndexTableBody tbody tr td.tab ul#TabPage1 li span {display:block;padding:14px 8px 5px 10px;background: url("tab.gif") no-repeat right -66px;}
+	#IndexTableBody tbody tr td.tab ul#TabPage1 li.Selected {background: url("tab.gif") no-repeat left -33px;font-size:14px;font-weight:600;color:#000;}
+	#IndexTableBody tbody tr td.tab ul#TabPage1 li.Selected span {padding:12px 8px 5px 10px;background: url("tab.gif") no-repeat right -99px;}
+	#IndexTableBody tbody tr td.tab ul#TabPage1 li#Tab2 {display:block!important;display:none;}
+	#IndexTableBody tbody tr td.tab ul#TabPage1 li#Tab3 {display:block!important;display:none;}
+/* -- 左侧导航菜单 -- */
+	#IndexTableBody tbody tr td.t1 {width:205px;vertical-align:top;}
+	#IndexTableBody tbody tr td #contents {margin:0 0 0 5px;height:100%;overflow:hidden;}
+	#IndexTableBody tbody tr td #contents table {height:100%;border-collapse:collapse;}
+	#IndexTableBody tbody tr td #contents tr.t1 {height:31px;vertical-align:bottom;}
+/*--快捷按钮样式--*/
+	#IndexTableBody tbody tr td #contents tr.t1 .menu_top1 {margin:0px 0 -10px 0;width:200px;height:10px;background: url("folder_bt1.png") no-repeat 2px top; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2{width:200px;height:auto;margin:8px 0 0 0;}
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 #btu { margin: 0 8px 0 0; width: 311!importantpx; width: 301px; height: 68px!important; height: 78px; padding: 5px; border: 1px #83B5CD solid; background: #F2F7F9;  }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul { width: 200px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li { float: left; width: 87px!important; width: 100px; height: 25px!important; height: 34px; padding: 9px 0 0 13px; background: url(folder_bigbtu.png) no-repeat -297px -97px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li a { display: block; padding: 2px 0 0 20px; color: #115888; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li a:hover { color: #000000; text-decoration: none; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l1 a { background: url(../li/ico.gif) no-repeat -1200 0px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l2 a { background: url(../li/ico.gif) no-repeat -1200 -20px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l3 a { background: url(../li/ico.gif) no-repeat -1200 -40px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l4 a { background: url(../li/ico.gif) no-repeat -1200 -60px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l5 a { background: url(../li/ico.gif) no-repeat -1200 -80px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l6 a { background: url(../li/ico.gif) no-repeat -1200 -100px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l7 a { background: url(../li/ico.gif) no-repeat -1200 -120px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l8 a { background: url(../li/ico.gif) no-repeat -1200 -140px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l9 a { background: url(../li/ico.gif) no-repeat 0px -60px; }
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul li.l10 a { background: url(../li/ico.gif) no-repeat 0px -121px; }
+
+
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul.li {float:left;}
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul.li a {display:block;height:36px;width:90px;text-indent:-9999px;}
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul.li#now01 a { margin: 11px 0 0 11px; background: url("folder_bigbtu.png") no-repeat 0 0;}
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul.li#now01 a:hover {background: url("folder_bigbtu.png") no-repeat 0 -36px;}
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul.li#now02 a { margin: 11px 0 0 3px;background: url("folder_bigbtu.png") no-repeat 0 -72px;}
+	#IndexTableBody tbody tr td #contents tr.t1 .menu2 ul.li#now02 a:hover {background: url("folder_bigbtu.png") no-repeat 0 -108px;}
+
+	#IndexTableBody tbody tr td #contents tr.t1 .menu_top {height:6px;width:200px;background:url("folder_bigbtu.png") no-repeat -300px 0px!important;background:url("folder_bigbtu.png") no-repeat -300px 4px;}
+	#IndexTableBody tbody tr td #contents tr.t2 {vertical-align:top;}
+	#IndexTableBody tbody tr td #contents tr.t2 .menu {height:100%;background:url("border_bg.png") repeat-y left top;}
+	#IndexTableBody tbody tr td #contents tr.t2 .menu ul#TabPage2 {float:left;width:21px; margin:-4px 0 0 0; padding:0 0 0 7px;position:relative;z-index:10;}
+	#IndexTableBody tbody tr td #contents tr.t2 .menu ul#TabPage2 li {margin:auto!important;margin:0 0 -4px 0;color:#165E92;clear:both;width:28px;background:transparent url("left_tab_Selected.gif") no-repeat -90px bottom;cursor:pointer;line-height:1.3;}
+	#IndexTableBody tbody tr td #contents tr.t2 .menu ul#TabPage2 li span {display:block;padding:7px 6px 9px 8px;background:transparent url("left_tab_Selected.gif") no-repeat -60px top;}
+	#IndexTableBody tbody tr td #contents tr.t2 .menu ul#TabPage2 li.Selected {background:url("left_tab_Selected.gif") no-repeat -30px bottom;font-weight:600;color:#000;}
+	#IndexTableBody tbody tr td #contents tr.t2 .menu ul#TabPage2 li.Selected span {background:transparent url("left_tab_Selected.gif") no-repeat 0px top;}
+	#IndexTableBody tbody tr td #contents tr.t2 .menu #left_menu_cnt {margin:0 0 0 36px!important;margin:0 0 0 30px;}
+
+/* 菜单列表 */
+	#contents div.menu #left_menu_cnt ul {}
+	#contents div.menu #left_menu_cnt ul li {display:inline;}
+	#contents div.menu #left_menu_cnt ul li a {display:block;margin:0px 7px 0 0px!important;margin:-1px 6px 0  4px;padding:5px 0 5px 15px;border-bottom:1px #D6EAF6 dashed;color:#115888;}
+	#contents div.menu #left_menu_cnt ul li a:hover {border-bottom:1px fff solid;background:url("folder_bigbtu.png") no-repeat -100px -100px;}
+	#contents div.menu #left_menu_cnt ul li#now23 a,#contents div.menu #left_menu_cnt ul li#now24 a {height:15px;}
+	#contents div.menu #left_menu_cnt ul li a.Selected {border-bottom:1px fff solid;font-weight:600;background:url("folder_bigbtu.png") no-repeat -100px -100px;}
+	#contents div.menu #left_menu_cnt ul li a.Selected:hover {}
+	#IndexTableBody tbody tr td.t1 #contents tr.t3 {height:15px;vertical-align:top;}
+	#IndexTableBody tbody tr td.t1 #contents tr.t3 .menu_end {height:15px;width:200px;background:url("folder_bigbtu.png") no-repeat -500px top;}
+	#IndexTableBody tbody tr td.t2 {vertical-align:top;}
+
+/* 菜单列表小标图 */
+	#contents div.menu #left_menu_cnt ul li a span { display: block; padding: 3px 0 0 20px; }
+	*html #contents div.menu #left_menu_cnt ul li#now23 a,*html #contents div.menu #left_menu_cnt ul li#now24 a { padding:5px 0 5px 11px; } /* IE6 hack */
+	*html #now23 a span,*html #now24 a span { padding: 3px 0 0 24px!important; } /* IE6 hack */
+	#contents div.menu #left_menu_cnt ul li a span#sdraft_num,#contents div.menu #left_menu_cnt ul li a span#del_num { display: inline; padding: 0!important; background: none; }
+	#now11 a span { background: url(../li/ico.gif) no-repeat left top; }
+	#now12 a span { background: url(../li/ico.gif) no-repeat left -20px; }
+	#now13 a span { background: url(../li/ico.gif) no-repeat left -40px; }
+	#now14 a span { background: url(../li/ico.gif) no-repeat left -60px; }
+	#now15 a span { background: url(../li/ico.gif) no-repeat left -80px; }
+	#now16 a span { background: url(../li/ico.gif) no-repeat left -100px; }
+	#now17 a span { background: url(../li/ico.gif) no-repeat left -120px; }
+	#now18 a span { background: url(../li/ico.gif) no-repeat left -140px; }
+	#now19 a span { background: url(../li/ico.gif) no-repeat left -160px; }
+	#now1a a span { background: url(../li/ico.gif) no-repeat left -180px; }
+	#now1b a span { background: url(../li/ico.gif) no-repeat left -200px; }
+	#now1c a span { background: url(../li/ico.gif) no-repeat left -220px; }
+	#now1d a span { background: url(../li/ico.gif) no-repeat left -240px; }
+
+	#now21 a span { background: url(../li/ico.gif) no-repeat -150px top; }
+	#now22 a span { background: url(../li/ico.gif) no-repeat -150px -20px; }
+	#now23 a span { background: url(../li/ico.gif) no-repeat -150px -40px; }
+	#now24 a span { background: url(../li/ico.gif) no-repeat -150px -60px; }
+	#now25 a span { background: url(../li/ico.gif) no-repeat -150px -80px; }
+	#now26 a span { background: url(../li/ico.gif) no-repeat -150px -100px; }
+	#now27 a span { background: url(../li/ico.gif) no-repeat -150px -120px; }
+	#now28 a span { background: url(../li/ico.gif) no-repeat -150px -140px; }
+	#now29 a span { background: url(../li/ico.gif) no-repeat -150px -160px; }
+
+	#now31 a span { background: url(../li/ico.gif) no-repeat -300px top; }
+	#now32 a span { background: url(../li/ico.gif) no-repeat -300px -20px; }
+	#now33 a span { background: url(../li/ico.gif) no-repeat -300px -40px; }
+	#now34 a span { background: url(../li/ico.gif) no-repeat -300px -60px; }
+	#now35 a span { background: url(../li/ico.gif) no-repeat -300px -80px; }
+	#now36 a span { background: url(../li/ico.gif) no-repeat -300px -100px; }
+	#now37 a span { background: url(../li/ico.gif) no-repeat -300px -120px; }
+	#now38 a span { background: url(../li/ico.gif) no-repeat -300px -140px; }
+	#now39 a span { background: url(../li/ico.gif) no-repeat -300px -160px; }
+
+	#now41 a span { background: url(../li/ico.gif) no-repeat -450px top; }
+	#now42 a span { background: url(../li/ico.gif) no-repeat -450px -20px; }
+	#now43 a span { background: url(../li/ico.gif) no-repeat -450px -40px; }
+	#now44 a span { background: url(../li/ico.gif) no-repeat -450px -60px; }
+	#now45 a span { background: url(../li/ico.gif) no-repeat -450px -80px; }
+	#now46 a span { background: url(../li/ico.gif) no-repeat -450px -100px; }
+	#now47 a span { background: url(../li/ico.gif) no-repeat -450px -120px; }
+	#now48 a span { background: url(../li/ico.gif) no-repeat -450px -140px; }
+	#now49 a span { background: url(../li/ico.gif) no-repeat -450px -160px; }
+
+	#now51 a span { background: url(../li/ico.gif) no-repeat -600px top; }
+	#now52 a span { background: url(../li/ico.gif) no-repeat -600px -20px; }
+	#now53 a span { background: url(../li/ico.gif) no-repeat -600px -40px; }
+	#now54 a span { background: url(../li/ico.gif) no-repeat -600px -60px; }
+	#now55 a span { background: url(../li/ico.gif) no-repeat -600px -80px; }
+	#now56 a span { background: url(../li/ico.gif) no-repeat -600px -100px; }
+	#now57 a span { background: url(../li/ico.gif) no-repeat -600px -120px; }
+	#now58 a span { background: url(../li/ico.gif) no-repeat -600px -140px; }
+	#now59 a span { background: url(../li/ico.gif) no-repeat -600px -160px; }
+
+	#now61 a span { background: url(../li/ico.gif) no-repeat -750px top; }
+	#now62 a span { background: url(../li/ico.gif) no-repeat -750px -20px; }
+	#now63 a span { background: url(../li/ico.gif) no-repeat -750px -40px; }
+	#now64 a span { background: url(../li/ico.gif) no-repeat -750px -60px; }
+	#now65 a span { background: url(../li/ico.gif) no-repeat -750px -80px; }
+	#now66 a span { background: url(../li/ico.gif) no-repeat -750px -100px; }
+	#now67 a span { background: url(../li/ico.gif) no-repeat -750px -120px; }
+	#now68 a span { background: url(../li/ico.gif) no-repeat -750px -140px; }
+	#now69 a span { background: url(../li/ico.gif) no-repeat -750px -160px; }
+
+	#now71 a span { background: url(../li/ico.gif) no-repeat -900px top; }
+	#now72 a span { background: url(../li/ico.gif) no-repeat -900px -20px; }
+	#now73 a span { background: url(../li/ico.gif) no-repeat -900px -40px; }
+	#now74 a span { background: url(../li/ico.gif) no-repeat -900px -60px; }
+	#now75 a span { background: url(../li/ico.gif) no-repeat -900px -80px; }
+	#now76 a span { background: url(../li/ico.gif) no-repeat -900px -100px; }
+	#now77 a span { background: url(../li/ico.gif) no-repeat -900px -120px; }
+	#now78 a span { background: url(../li/ico.gif) no-repeat -900px -140px; }
+	#now79 a span { background: url(../li/ico.gif) no-repeat -900px -160px; }
+
+	#now81 a span { background: url(../li/ico.gif) no-repeat -1050px top; }
+
+/* 左侧菜单订阅部分 */
+	#contents div.menu #left_menu_cnt ul#dleft_tab7 {position:relative;top:0;left:-2px!important;left:-3px;width:159px;height:100%;overflow-x:hidden;overflow-y:auto;}
+	#contents div.menu #left_menu_cnt ul#dleft_tab7 .loading {display:block;padding:10px;background:#FFFFE0 url("boxover_bd.png") repeat-x left bottom;border-bottom:1px solid #C3C370;text-align:center;color:#f00;}
+
+/* 左侧菜单订阅部分 订阅列表 */
+#dleft_tab7 li.isupdate {color:#115888!important;font-weight:600!important;}/* 有更新 */
+#dleft_tab7 li {margin:0 0 0 0px!important;padding:0!important;}
+#dleft_tab7 li a {padding:4px 0px 0px 15px!important;width:135px!important;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border:0!important;line-height:1.5!important;}
+#dleft_tab7 li a:hover {}
+#dleft_tab7 li a.Selected {}
+#dleft_tab7 li a.Selected:hover {}
+#dleft_tab7 li.open a {border-top:1px #efefef solid;background: url("../li/ico.gif") no-repeat -900px -37px!important;}
+#dleft_tab7 li.close a {border-top:1px #efefef solid;background: url("../li/ico.gif") no-repeat -900px -17px!important;}
+#dleft_tab7 li#now701 {}
+#dleft_tab7 li#now701 a {padding:2px 0px 0px 23px!important; background: url(../li/ico.gif) no-repeat -895px 3px!important; }
+#dleft_tab7 li#now701 a:hover {}
+#dleft_tab7 li#now701 a.Selected {padding:2px 0px 0px 23px!important; background: url(../li/ico.gif) no-repeat -895px 3px!important; font-weight:600!important;text-decoration:underline;}
+#dleft_tab7 li#now701 a.Selected:hover {color:#115888!important;font-weight:600!important;text-decoration:none;}
+
+/* 左侧菜订阅部分 操作按扭 */
+
+
+#dleft_tab7 ol.option {height:20px;overflow:hidden;background:#E4F4FC url("user_dleft_tab7.png") repeat-x left top;}
+#dleft_tab7 ol.option li {float:left;width:44px;overflow:hidden;}
+#dleft_tab7 ol.option li a {width:44px;margin:0!important;padding:1px 0 0 16px!important;height:20px!important;}
+#dleft_tab7 ol.option li a:hover {background:none!important;text-decoration:underline;}
+#dleft_tab7 ol.option li a.Selected {background:url("user_setting_title_tab_bg.png") no-repeat 20px top!important;}
+#dleft_tab7 ol.option li a.Selected:hover {background:url("user_setting_title_tab_bg.png") no-repeat 20px top!important;text-decoration:underline;}
+
+	#IndexTableBody tbody tr td.t2 {padding:5px;}
+	#IndexTableBody tbody tr td.t2 div#cnt {width:100%;height:100%;}
+	#IndexTableBody tbody tr td.t2 div#cnt iframe {width:100%;height:100%;border:none!important;border:1px #1A76B7 solid;}
+	#IndexTableBody tbody tr td.t2 div#cnt div {border:1px #1A76B7 solid!important;border:none;}
+	#IndexTableBody tbody tr td.t2 div#cnt #dTab1 {display:block;}
+	#IndexTableBody tbody tr td.t2 div#cnt #dTab2 {display:none;}
+	#IndexTableBody tbody tr td.t2 div#cnt #dTab3 {display:none;}

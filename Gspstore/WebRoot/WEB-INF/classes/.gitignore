@@ -1,0 +1,14 @@
+/business/
+/com/
+/config.properties
+/demo/
+/ehcache.xml
+/initdata/
+/jeecg/
+/log4j.properties
+/spring-hibernate.xml
+/spring.xml
+/struts.xml
+/sun/
+/test/
+/xwork-conversion.properties

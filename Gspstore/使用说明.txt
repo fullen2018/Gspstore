@@ -1,0 +1,30 @@
+系统登录账号
+admin
+密码
+admin
+
+数据库文件在db目录下，导入mysql5
+工程导入eclipse indigo 3.7。2
+其他问题咨询作者，
+版权归作者所有
+
+淘宝下载的新框架 是一个非常标准的 mysql数据库 SSH结构java框架
+
+基本的增删改查操作：
+1 在src里边--business目录下的entity相当于公司框架的model（数据库对象化）建立数据库对象实例
+
+2在src里边的page是沟通jsp跟action的set、get操作，相当于公司框架的form
+
+3在src里边的action就是对应公司框架的action
+
+4页面jsp都在webroot里边的business里边是具体的页面显示
+
+5dao都是公用的  basedao
+
+6 service的接口 实在 service下边的impl目录下
+
+完成以上页面就完成了基本的增删改查操作
+
+我还需要完成的就是，串口接收数据，将数据用echars展示在jsp页面上
+
+加入了一个comm.jar在E盘jdk目录下jar-leb

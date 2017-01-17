@@ -1,0 +1,102 @@
+.tableForm {
+	
+}
+
+.tableForm th {
+	text-align: right;
+}
+
+.tableForm td {
+	
+}
+
+.tableForm input {
+	width: 150px;
+}
+
+.tableCss {
+	background: #E2F5BC;
+	border: 1px solid #E2F5BC;
+}
+
+.tableCss th {
+	font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #E2F5BC;
+	border-bottom: 1px solid #E2F5BC;
+	border-top: 1px solid #E2F5BC;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #EDF9D5;
+}
+
+.tableCss td {
+	border-right: 1px solid #E2F5BC;
+	border-bottom: 1px solid #E2F5BC;
+	background: #F8FBFB;
+	font-size: 16px;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+.logo {
+	background: url('./images/toplogo.png') no-repeat;
+}
+
+.info {
+	color: #8F5700;
+	padding: 20px;
+}
+
+.tip {
+	width: 24px;
+	height: 16px;
+	float: left;
+}
+
+.inputread  {
+	background-color: #EFEFEF;
+}
+
+/************限制文字显示长度   ************/
+.limit { display : block;		/*定义为块级*****************/ overflow : hidden;		/*超出的部分隐藏起来。********/ white-space : nowrap;		/*不显示的地方用省略号...代替**/ text-overflow : ellipsis;		/* 支持 IE *****************/ -o-text-overflow : ellipsis;		/* 支持 Opera **************/ color : #022A4C; }
+
+/*width*/
+HTML BODY .w5 { width:5px; display:inline-block; }
+
+HTML BODY .w10 { width:10px; display:inline-block; }
+
+HTML BODY .w15 { width:15px; display:inline-block; }
+
+HTML BODY .w20 { width:20px; display:inline-block; }
+
+HTML BODY .w30 { width:30px; display:inline-block; }
+
+HTML BODY .w40 { width:40px; display:inline-block; }
+
+HTML BODY .w50 { width:50px; display:inline-block; }
+
+HTML BODY .w60 { width:60px; display:inline-block; }
+
+HTML BODY .w70 { width:70px; display:inline-block; }
+
+HTML BODY .w80 { width:80px; display:inline-block; }
+
+HTML BODY .w90 { width:90px; display:inline-block; }
+
+HTML BODY .w100 { width:100px; display:inline-block; }
+
+HTML BODY .w150 { width:150px; display:inline-block; }
+
+HTML BODY .w200 { width:200px; display:inline-block; }
+
+HTML BODY .w250 { width:250px; display:inline-block; }
+
+HTML BODY .w300 { width:300px; display:inline-block; }
+
+HTML BODY .w400 { width:400px; display:inline-block; }
+
+HTML BODY .w500 { width:500px; display:inline-block; }
+
